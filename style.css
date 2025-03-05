@@ -1,4 +1,26 @@
-
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main{
+    width: 50%;
+    height: auto;
+}
+.open{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    color: #eee;
+}
+.open h1 span {
+    font-family: "Sigmar", sans-serif;
+}
 button{
 padding: 10px 10px;
  background: lightblue;
