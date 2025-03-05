@@ -1,0 +1,99 @@
+
+button{
+      padding: 10px 10px;
+            background: lightblue;
+                  color: darkcyan;
+                        border: none;
+                              z-index: 999;
+                                    outline: none;
+                                          border-radius: 5px;
+                                              }
+                                                  .bell{
+                                                        width: 25px;
+                                                              height: 25px;
+                                                                    display: none;
+                                                                          
+                                                                                justify-content: center;
+                                                                                      align-items: center;
+                                                                                            border-radius: 45%;
+                                                                                                  margin-left: 20px;
+                                                                                                        margin-top: -12px;
+                                                                                                              position: absolute;
+                                                                                                                    background: lightcoral;
+                                                                                                                          color:black;
+                                                                                                                                text-align: center;
+                                                                                                                                    }
+                                                                                                                                        .bells{
+                                                                                                                                              margin-top: 30px
+                                                                                                                                              }
+                                                                                                                                              .search{
+                                                                                                                                                padding: 5px 10px;
+                                                                                                                                                  width: 80%;
+                                                                                                                                                    border-radius: 5px;
+                                                                                                                                                      background: #333;
+                                                                                                                                                      }
+                                                                                                                                                      .send{
+                                                                                                                                                        background: #333;
+                                                                                                                                                          color: white;
+                                                                                                                                                            position: absolute;
+                                                                                                                                                              padding: 15px 15px;
+                                                                                                                                                                font-weight: 999;
+                                                                                                                                                                border-radius: 0px;
+                                                                                                                                                                width: fit-content;
+
+                                                                                                                                                                }
+                                                                                                                                                                #text{
+                                                                                                                                                                  padding: 15px 10px;
+                                                                                                                                                                    width: 85%;
+                                                                                                                                                                      border-radius: 0px;
+                                                                                                                                                                        border: none;
+                                                                                                                                                                          outline: none;
+                                                                                                                                                                            
+                                                                                                                                                                            }
+                                                                                                                                                                            .senter{
+                                                                                                                                                                              padding: 10px 10px;
+                                                                                                                                                                              background: lightblue;
+                                                                                                                                                                              color: darkcyan;
+                                                                                                                                                                              border: none;
+                                                                                                                                                                              z-index: 999;
+                                                                                                                                                                              width: 60%;
+                                                                                                                                                                              border-bottom-right-radius: 0px;
+                                                                                                                                                                              overflow-x: hidden;
+                                                                                                                                                                              outline: none;
+                                                                                                                                                                              margin-top: 20px;
+                                                                                                                                                                              border-radius: 5px;
+                                                                                                                                                                              float: right;
+                                                                                                                                                                              }
+                                                                                                                                                                              .recieve{
+                                                                                                                                                                              padding: 10px 10px;
+                                                                                                                                                                              background: lightblue;
+                                                                                                                                                                              width: 60%;
+                                                                                                                                                                              color: darkcyan;
+                                                                                                                                                                              border: none;
+                                                                                                                                                                              z-index: 999;
+                                                                                                                                                                              outline: none;
+                                                                                                                                                                              margin-top: 40px;
+                                                                                                                                                                              border-radius: 5px;
+                                                                                                                                                                              border-bottom-left-radius: 0px;
+                                                                                                                                                                              float: left;
+                                                                                                                                                                              }
+
+
+                                                                                                                                                                              .input{
+                                                                                                                                                                                padding: 10px 15px;
+                                                                                                                                                                                  border-radius: 5px;
+                                                                                                                                                                                    background: transparent;
+                                                                                                                                                                                      color: darkblue;
+                                                                                                                                                                                      }
+                                                                                                                                                                                      .senn {
+                                                                                                                                                                                        border: 1px solid darkcyan;
+                                                                                                                                                                                          float: left;
+                                                                                                                                                                                            padding: 5px 10px;
+                                                                                                                                                                                            }
+                                                                                                                                                                                            
+                                                                                                            .sen{
+                                                                                                                                                                                              border: 1px solid darkcyan;
+                                                                                                                                                                                                float: right;
+                                                                                                                                                                                                  padding: 5px 10px;
+                                                                                                                                                                                                  }
+                                                                                                                                                                                                  
