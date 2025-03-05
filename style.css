@@ -22,6 +22,9 @@ header{
     font-family: "Silkscreen", sans-serif;
     color: #ff7f11;
     backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
 }
 a{
     text-decoration: none;
