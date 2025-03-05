@@ -60,7 +60,7 @@ Bookmark Feature – Allow users to save words for later.
 **📩 Contact**
 
 Created by Leul Ayfokru
-Email: [abateisking@gmail.com](mailto:abateisking@gmail.com)
+Email: [✉️abateisking@gmail.com](mailto:abateisking@gmail.com)
  
 
 Let me know if you want any modifications!
