@@ -3,7 +3,9 @@ body{
     padding: 0;
     display: flex; 
     flex-direction: column;
-    background: url(image/bg.jpg);
+    background: #ed7029;
+    background: -webkit-linear-gradient(0deg, #ed7029 0%, #10bbc1 100%);
+    background: linear-gradient(0deg, #ed7029 0%, #10bbc1 100%);
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +71,7 @@ a{
 }
 .open h1 span {
     font-family: "Silkscreen", sans-serif;
-    color: #ff7f11;
+    color: white;
 }
 button{
 padding: 10px 10px;
