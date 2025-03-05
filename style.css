@@ -4,8 +4,7 @@ body{
     display: flex; 
     flex-direction: column;
     background: #ed7029;
-    background: -webkit-linear-gradient(0deg, #ed7029 0%, #10bbc1 100%);
-    background: linear-gradient(0deg, #ed7029 0%, #10bbc1 100%);
+    
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(221,7,7,1) 0%, rgba(246,231,82,1) 90% );
     background-position: center;
     background-repeat: no-repeat;
@@ -59,20 +58,21 @@ a{
     text-align: center;
     width: 60%;
     font-family: "Roboto", sans-serif;
-    color: #bde4a8; 
+    color: #fff; 
 }
 .open h1{
     font-size: 4rem;
     font-weight: 700;
 }
 .open p{
-    font-weight: 500;
-    color: #f1e9da;
+    
+    color: #fff;
     font-size: 1.5rem;
 }
-.open h1 span {
+.open span {
     font-family: "Silkscreen", sans-serif;
-    color: white;
+    color: #002a79;
+    text-decoration: underline;
 }
 button{
 padding: 10px 10px;
@@ -115,8 +115,8 @@ display: flex;
 flex-direction: row-reverse ;
 }
 .send{
-background: #ff7f11;
-color: white;
+background: #002a79;
+color: #eee;
 position: absolute;
 padding: 15px 15px;
 font-weight: 999;
@@ -182,7 +182,7 @@ float: right;
 padding: 5px 10px;
 }
 a i{
-    color: #4daa57;
+    color: #fff;
     margin:0 20px 20px 0;
 }
 a i:hover{
@@ -208,4 +208,5 @@ a i:hover{
         padding: 3px 5px;
          
         }
-}                                                                                                                                                                                                 
+}  
+                                                                                                                                                                                               

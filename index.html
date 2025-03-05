@@ -34,13 +34,15 @@
           <a href="index.html">Englify <span class="material-symbols-outlined">
             dictionary
             </span></a>
+          
+           <button> <i class="fa-solid fa-moon" id="darkMode" onclick="dark()"></i></button>
       </nav>
   </header>
   <div class="boss"> 
   <div class="open">
-   <h1> Welcome to <span> Englify!</span></h1>
+   <h1> Welcome to <span id="span"> Englify!</span></h1>
    <p>
-   Your go-to dictionary for clear, easy-to-understand definitions. Whether you're learning or just exploring, we make language simple and accessible for everyone.
+   Your go-to dictionary for clear, easy-to-understand definitions. Whether you're learning or just exploring, we make language <span id="span">simple and accessible</span>  for everyone.
    </p>  
    <p>Created by akl-leul 
     <a href="https://github.com/akl-leul/"><i 
@@ -56,7 +58,7 @@
   <div class="main">
 <div class="search">
 <input type="text" name="text" id="text" placeholder="What's your word? 🤔">
-<button onclick="send()" class="send" type="send" >Search</button>
+<button onclick="send()" class="send" type="send" ><i class="fa-solid fa-magnifying-glass"></i>  </button>
 
 </div>
 <div class="bells">
