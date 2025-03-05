@@ -1,4 +1,4 @@
-const bells = document.inin getElementById('bells');
+const bells = document.getElementById('bells');
                                                                                                                                                                                                                                                                 const bell = document.getElementById('bell');
                                                                                                                                                                                                                                                                 bell.style.display = 'flex'
                                                                                                                                                                                                                                                                 let countX = 0;
