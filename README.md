@@ -30,11 +30,11 @@ Fast & Lightweight – Optimized for speed and efficiency.
 
 /Dictionary
 
-│── index.html         # Main page  
-│── style.css         # Stylesheet  
-│── Script.js          # JavaScript logic  
-│── image/            # Images and icons  
-│── README.md          # This file
+│── index.html         
+│── style.css         
+│── Script.js           
+│── image/             
+│── README.md          
 
 **🎯 How to Use**
 
