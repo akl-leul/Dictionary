@@ -6,7 +6,8 @@ body{
     background: #ed7029;
     background: -webkit-linear-gradient(0deg, #ed7029 0%, #10bbc1 100%);
     background: linear-gradient(0deg, #ed7029 0%, #10bbc1 100%);
-     background-position: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(221,7,7,1) 0%, rgba(246,231,82,1) 90% );
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100lvh;
