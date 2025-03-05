@@ -19,11 +19,11 @@ Fast & Lightweight – Optimized for speed and efficiency.
 
 **🔧 Technologies Used**
 
-<h1><b>Frontend:</b></h1> HTML, CSS, JavaScript
+*Frontend:* HTML, CSS, JavaScript
 
-API Integration: Fetches word data from a dictionary API
+*API Integration:* Fetches word data from a dictionary API
 
-Hosting: [Mention hosting platform, e.g., Vercel, InfinityFree]
+*Hosting:* Vercel
 
 
 **📂 Project Structure**
