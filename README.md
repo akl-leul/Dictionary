@@ -29,6 +29,7 @@ Fast & Lightweight – Optimized for speed and efficiency.
 **📂 Project Structure**
 
 /Dictionary
+
 │── index.html         # Main page  
 │── style.css         # Stylesheet  
 │── Script.js          # JavaScript logic  
