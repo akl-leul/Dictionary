@@ -1,81 +1,116 @@
 const bells = document.getElementById('bells');
-                                                                                                                                                                                                                                                                const bell = document.getElementById('bell');
-                                                                                                                                                                                                                                                                bell.style.display = 'flex'
-                                                                                                                                                                                                                                                                let countX = 0;
-                                                                                                                                                                                                                                                                  function send(){
-                                                                                                                                                                                                                                                                      const text = document.getElementById('text').value;
-                                                                                                                                                                                                                                                                      const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${text}`;
-                                                                                                                                                                                                                                                                          
+const bell = document.getElementById('bell');
+bell.style.display = 'flex';
+let countX = 0;
 
-                                                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                                                              const container = document.getElementById('container');
-                                                                                                                                                                                                                                                                              const sentDiv = document.createElement('div');
-                                                                                                                                                                                                                                                                              sentDiv.classList.add('senter');
-                                                                                                                                                                                                                                                                              const speech = document.createElement('button');
-                                                                                                                                                                                                                                                                              speech.classList.add('sen');
-                                                                                                                                                                                                                                                                              speech.innerHTML = '<i class="fas fa-microphone"></i> ';
-                                                                                                                                                                                                                                                                              speech.addEventListener('click',()=>{
-                                                                                                                                                                                                                                                                                const spee = new SpeechSynthesisUtterance()
-                                                                                                                                                                                                                                                                                  spee.text=text;
-                                                                                                                                                                                                                                                                                    spee.rate='.8';
-                                                                                                                                                                                                                                                                                    const synth = window.speechSynthesis;
-                                                                                                                                                                                                                                                                                    synth.speak(spee);
-                                                                                                                                                                                                                                                                                    })
-                                                                                                                                                                                                                                                                                    const copy = document.createElement('button');
-                                                                                                                                                                                                                                                                                    copy.classList.add('sen');
-                                                                                                                                                                                                                                                                                    copy.innerHTML = '<i class="fas fa-copy"></i> ';
-                                                                                                                                                                                                                                                                                    copy.addEventListener('click',()=>{
-                                                                                                                                                                                                                                                                                      navigator.clipboard.writeText(text);
-                                                                                                                                                                                                                                                                                        copy.innerHTML = '<i class="fas fa-clipboard"></i> ';
-                                                                                                                                                                                                                                                                                          copy.style.border='none';
-                                                                                                                                                                                                                                                                                          const cpy = new SpeechSynthesisUtterance()
-                                                                                                                                                                                                                                                                                          cpy.text = 'Copied';
-                                                                                                                                                                                                                                                                                          cpy.rate = .9;
-                                                                                                                                                                                                                                                                                          const syn = window.speechSynthesis;
-                                                                                                                                                                                                                                                                                          syn.speak(cpy);
-                                                                                                                                                                                                                                                                                            copy.disabled
-                                                                                                                                                                                                                                                                                            })
-                                                                                                                                                                                                                                                                                            const textNode = document.createTextNode(text);
-                                                                                                                                                                                                                                                                                            sentDiv.appendChild(textNode);
-                                                                                                                                                                                                                                                                                            sentDiv.appendChild(copy);
-                                                                                                                                                                                                                                                                                            sentDiv.appendChild(speech);
-                                                                                                                                                                                                                                                                                            container.appendChild(sentDiv);
-                                                                                                                                                                                                                                                                                            const reciever = document.createElement('div');
-                                                                                                                                                                                                                                                                                            reciever.classList.add('recieve');
+function send() {
+    const text = document.getElementById('text').value;
+    const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${text}`;
+    
+    const container = document.getElementById('container');
+    const sentDiv = document.createElement('div');
+    sentDiv.classList.add('senter');
 
-                                                                                                                                                                                                                                                                                            fetch(url)
-                                                                                                                                                                                                                                                                                            .then(response=>response.json())
-                                                                                                                                                                                                                                                                                            .then(data=>{
-                                                                                                                                                                                                                                                                                              const speec = document.createElement('button');
-                                                                                                                                                                                                                                                                                              speec.classList.add('senn');
-                                                                                                                                                                                                                                                                                              speec.innerHTML = '<i class="fas fa-microphone"></i>';
-                                                                                                                                                                                                                                                                                              speec.addEventListener('click', () => {
-                                                                                                                                                                                                                                                                                                const speek = new SpeechSynthesisUtterance()
-                                                                                                                                                                                                                                                                                                  spee.text = rec;
-                                                                                                                                                                                                                                                                                                    spee.rate = '.8';
-                                                                                                                                                                                                                                                                                                      const synt = window.speechSynthesis;
-                                                                                                                                                                                                                                                                                                        synt.speak(speek);
-                                                                                                                                                                                                                                                                                                        })
-                                                                                                                                                                                                                                                                                                        const copy = document.createElement('button');
-                                                                                                                                                                                                                                                                                                        copy.classList.add('sen');
-                                                                                                                                                                                                                                                                                                        copy.textContent = 'Copy';
-                                                                                                                                                                                                                                                                                                        copy.addEventListener('click', () => {
-                                                                                                                                                                                                                                                                                                          navigator.clipboard.writeText(text);
-                                                                                                                                                                                                                                                                                                            copy.textContent = 'Copied';
-                                                                                                                                                                                                                                                                                                              copy.style.border = 'none';
-                                                                                                                                                                                                                                                                                                                copy.style.color = 'black';
-                                                                                                                                                                                                                                                                                                                  copy.disabled
-                                                                                                                                                                                                                                                                                                                  })
-                                                                                                                                                                                                                                                                                                                    const rec = document.createTextNode(data[0].meanings[0].definitions[0].definition);
-                                                                                                                                                                                                                                                                                                                      reciever.appendChild(rec);
-                                                                                                                                                                                                                                                                                                                        container.appendChild(reciever)
-                                                                                                                                                                                                                                                                                                                          countX++;
-                                                                                                                                                                                                                                                                                                                           const msc = document.getElementById('sen');
-                                                                                                                                                                                                                                                                                                                             msc.play()
-                                                                                                                                                                                                                                                                                                                               bell.innerHTML=countX;
-                                                                                                                                                                                                                                                                                                                                 const localized = localStorage.setItem('message',rec.textContent);
-                                                                                                                                                                                                                                                                                                                                 })
-                                                                                                                                                                                                                                                                                                                                   }
+    const speech = document.createElement('button');
+    speech.classList.add('sen');
+    speech.innerHTML = '<i class="fas fa-microphone"></i>';
+    speech.addEventListener('click', () => {
+        const spee = new SpeechSynthesisUtterance();
+        spee.text = text;
+        spee.rate = 0.8;
+        const synth = window.speechSynthesis;
+        synth.speak(spee);
+    });
+
+    const copy = document.createElement('button');
+    copy.classList.add('sen');
+    copy.innerHTML = '<i class="fas fa-copy"></i>';
+    copy.addEventListener('click', () => {
+        navigator.clipboard.writeText(text)
+            .then(() => {
+                copy.innerHTML = '<i class="fas fa-clipboard"></i>';
+                copy.style.border = 'none';
+                const cpy = new SpeechSynthesisUtterance();
+                cpy.text = 'Copied';
+                cpy.rate = 0.9;
+                const syn = window.speechSynthesis;
+                syn.speak(cpy);
+                copy.disabled = true;
+            })
+            .catch(err => {
+                console.error('Clipboard copy failed: ', err);
+                alert('Failed to copy text.');
+            });
+    });
+
+    const textNode = document.createTextNode(text);
+    sentDiv.appendChild(textNode);
+    sentDiv.appendChild(copy);
+    sentDiv.appendChild(speech);
+    container.appendChild(sentDiv);
+
+    const reciever = document.createElement('div');
+    reciever.classList.add('recieve');
+
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to fetch data: ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            const speec = document.createElement('button');
+            speec.classList.add('senn');
+            speec.innerHTML = '<i class="fas fa-microphone"></i>';
+            speec.addEventListener('click', () => {
+                const speek = new SpeechSynthesisUtterance();
+                speek.text = rec.textContent;
+                speek.rate = 0.8;
+                const synt = window.speechSynthesis;
+                synt.speak(speek);
+            });
+
+            const copy = document.createElement('button');
+            copy.classList.add('sen');
+            copy.textContent = 'Copy';
+            copy.addEventListener('click', () => {
+                navigator.clipboard.writeText(rec.textContent)
+                    .then(() => {
+                        copy.textContent = 'Copied';
+                        copy.style.border = 'none';
+                        copy.style.color = 'black';
+                        copy.disabled = true;
+                    })
+                    .catch(err => {
+                        console.error('Clipboard copy failed: ', err);
+                        alert('Failed to copy definition.');
+                    });
+            });
+
+            const rec = document.createTextNode(data[0].meanings[0].definitions[0].definition);
+            reciever.appendChild(rec);
+            reciever.appendChild(copy);
+            reciever.appendChild(speec);
+            container.appendChild(reciever);
+            countX++;
+
+            const msc = document.getElementById('sen');
+            if (msc) msc.play();
+            bell.innerHTML = countX;
+
+            try {
+                localStorage.setItem('message', rec.textContent);
+            } catch (e) {
+                console.error('Failed to store message in localStorage: ', e);
+            }
+        })
+        .catch(err => {
+            console.error('Error fetching data: ', err);
+            alert('Failed to retrieve definition. Please try again later.');
+        });
+}
+
                                                                                                                                                                                                                                                                                                                                      function show(){
                                                                                                                                                                                                                                                                                                                                          const stored = document.getElementById('store');
                                                                                                                                                                                                                                                                                                                                              const str = document.getElementById('message');
