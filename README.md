@@ -2,11 +2,11 @@
 
 
 
-📌 Project Overview
+**📌 Project Overview**
 
 This is a Dictionary Website that allows users to search for word definitions, synonyms, antonyms, and pronunciations. The website is designed for a smooth and user-friendly experience, offering quick and accurate results.
 
-🚀 Features
+**🚀 Features**
 
 Word Search – Find meanings, synonyms, antonyms, and pronunciation.
 
@@ -17,7 +17,7 @@ Responsive Design – Works on all devices, including mobile and desktop.
 Fast & Lightweight – Optimized for speed and efficiency.
 
 
-🔧 Technologies Used
+**🔧 Technologies Used**
 
 Frontend: HTML, CSS, JavaScript
 
@@ -26,7 +26,7 @@ API Integration: Fetches word data from a dictionary API
 Hosting: [Mention hosting platform, e.g., Vercel, InfinityFree]
 
 
-📂 Project Structure
+**📂 Project Structure**
 
 /project-root  
 │── index.html         # Main page  
@@ -35,7 +35,7 @@ Hosting: [Mention hosting platform, e.g., Vercel, InfinityFree]
 │── image/            # Images and icons  
 │── README.md          # This file
 
-🎯 How to Use
+**🎯 How to Use**
 
 1. Open the website in a browser.
 
@@ -47,7 +47,7 @@ Hosting: [Mention hosting platform, e.g., Vercel, InfinityFree]
 
 
 
-⚡ Future Enhancements
+**⚡ Future Enhancements**
 
 Offline Mode – Enable word lookup without an internet connection.
 
@@ -56,7 +56,7 @@ Multilingual Support – Provide definitions in multiple languages.
 Bookmark Feature – Allow users to save words for later.
 
 
-📩 Contact
+**📩 Contact**
 
 Created by Leul Ayfokru
 abateisking@gmail.com
