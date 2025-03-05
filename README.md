@@ -19,7 +19,7 @@ Fast & Lightweight – Optimized for speed and efficiency.
 
 **🔧 Technologies Used**
 
-Frontend: HTML, CSS, JavaScript
+<h1><b>Frontend:</b></h1> HTML, CSS, JavaScript
 
 API Integration: Fetches word data from a dictionary API
 
@@ -28,7 +28,7 @@ Hosting: [Mention hosting platform, e.g., Vercel, InfinityFree]
 
 **📂 Project Structure**
 
-/project-root  
+/Dictionary
 │── index.html         # Main page  
 │── style.css         # Stylesheet  
 │── Script.js          # JavaScript logic  
