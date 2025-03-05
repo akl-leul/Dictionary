@@ -178,6 +178,13 @@ border: 1px solid darkcyan;
 float: right;
 padding: 5px 10px;
 }
+a i{
+    color: #4daa57;
+    margin:0 20px 20px 0;
+}
+a i:hover{
+    margin-top: -30px;
+}
 @media (max-width: 768px) {
     .open{
         width: 90%;
