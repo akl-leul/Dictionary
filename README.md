@@ -26,9 +26,9 @@ Fast & Lightweight – Optimized for speed and efficiency.
 *Hosting:* Vercel
 
 **Screenshots**
-![Alt Text](screenshot.png) 
+![Screenshot 1](screenshot.png) 
 
-![Alt Text](screenshot1.png)
+![Screenshot 2](screenshot1.png)
 
 **📂 Project Structure**
 
